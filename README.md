@@ -1,3 +1,3 @@
-# my_portfolio
+# portfolio
 
 My portfolio built with Vue Js and Typescript. Hosted on Vercel.
