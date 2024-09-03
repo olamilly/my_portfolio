@@ -75,7 +75,7 @@ let projects = {
     name:'SafePass',
     short_description:'Password and Credentials manager',
     main_description:"Full stack web application that helps users securely store passwords for different websites.<br>I implemented AES-256 encryption on the backend to securely encrypt all user information stored on the database. This project is a <a style='font-weight: 700;text-decoration: underline;' href='https://codingchallenges.fyi/' target='_blank'>coding challenges</a> solution and the problem brief can be found <a style='font-weight: 700;text-decoration: underline;'  href='https://codingchallenges.substack.com/p/coding-challenge-58-password-manager' target='_blank'>here</a>. Going through the brief will help give you a proper understanding of the problem that the application is trying to solve. <br>Working on this project helped me learn more about Cybersecurity and Encryption as well as hosting web applications on AWS virtual servers.",
-    img:'/src/assets/jpeg/safepass.jpg',
+    img:'/safepass.jpg',
     tools:['HTML','CSS','JavaScript','Git','Vue', "Bootstrap",'PHP', 'Laravel'," MySQL", 'AWS EC2'],
     live:'http://ec2-54-242-210-101.compute-1.amazonaws.com/',
     source:'https://github.com/olamilly/safepass'
@@ -84,7 +84,7 @@ let projects = {
     name:'Class Attendance Management System',
     short_description:'Fullstack web application that leverages Facial and Fingerprint recognition technology to collect and monitor student attendance data.',
     main_description:'This project has two parts. <br>1. Simple hardware component comprising of a Raspberry pi processor, Pi Camera, Fingerprint Sensor, LCD screen and a button.<br>2. Web application to process and view the data built with Laravel (A PHP Framework), Apache Web server, mySQL database.<br><br>Basically, the hardware identifies students using either their face or fingerprints, writes data on a CSV file(student name, time stamp, course code, etc.) and sends the CSV file to the backend through a HTTP request to be processed, stored and eventually displayed on the dashboard.<br>This project helped me work on my python skills as that was what I used to write code for the hardware processor.',
-    img:'/src/assets/jpeg/attendance.jpg',
+    img:'/attendance.jpg',
     tools:["PHP","Python","Bootstrap", 'Laravel'," MySQL","Raspberry Pi","Open CV","Adafruit_fingerprint"],
     live:'',
     source:''
@@ -93,7 +93,7 @@ let projects = {
     name:'DevPrompts.ai',
     short_description:'Artificial Intelligence platform engineering.',
     main_description:"Lightweight frontend web application that levrages Google's powerful Gemini LLM API. <br>Using information from the user about their tech stack, the application is able to generate project ideas for the user to build.",
-    img:'/src/assets/jpeg/devprompts.jpg',
+    img:'/devprompts.jpg',
     tools:['Vue', 'AWS S3'," Artificial Intelligence"],
     live:'http://devprompts.ai.s3-website-us-east-1.amazonaws.com/',
     source:''
@@ -102,7 +102,7 @@ let projects = {
   //  name:'Mini Games',
     //short_description:'Fun Popular Games to pass time with...',
     //main_description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias tenetur minus quaerat aliquid, aut provident blanditiis',
-    //img:'/src/assets/jpeg/mini.jpg',
+    //img:'/mini.jpg',
     //tools:['Vue', "Bootstrap", 'Laravel'," MySQL"],
     //live:'',
     //source:''
@@ -111,7 +111,7 @@ let projects = {
     name:'Appointment Management System',
     short_description:'General purpose Administrator dashboard for assistants, secretaries and the likes to manage users, appointments',
     main_description:" Built with Laravel on the backend and Vue.js 3 on the frontend, this project serves as a starting point for creating various web applications requiring an admin interface.<br><br>It provides functionalities like:<br><ul><li style='list-style:square'>User authentication (Laravel Fortify) and management(CRUD operation on users stored in a database).</li><li style='list-style:square'>Data filtering, pagination and searching. (Appointments in the base case but it can be altered to manage whatever data)</li><li style='list-style:square'>Toast notifications</li><li style='list-style:square'>Confirmation modals for actions using Sweet Alert</li><li style='list-style:square'>Date and time pickers</li></ul><br>By building this project, I gained valuable experience in building modern fullstack web applications with a clear separation of concerns between the backend and frontend. I also explored integrating third-party libraries and node modules to enhance user experience.",
-    img:'/src/assets/jpeg/appointments.jpg',
+    img:'/appointments.jpg',
     tools:['Vue', "Bootstrap", 'Laravel'," MySQL"],
     live:'',
     source:'https://github.com/olamilly/mylaravue3'

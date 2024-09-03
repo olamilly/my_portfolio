@@ -26,11 +26,11 @@
    import projectComp from './ProjectComp.vue'
    import { ref } from 'vue';
    const projects=ref([
-     {name:'SafePass',description:'Password and Credentials manager',img:'/src/assets/jpeg/safepass.jpg'},
-     {name:'Class Attendance Management System',description:'Fullstack web application with IoT and Hardware integration...',img:'/src/assets/jpeg/attendance.jpg'},
-     {name:'DevPrompts.ai',description:'Web application that leverages the power of generative Artificial Intelligence to inspire developers to improve their skills.',img:'/src/assets/jpeg/devprompts.jpg'},
-     //{name:'Mini Games',description:'Fun Popular Games to pass time with...',img:'/src/assets/jpeg/mini.jpg'},
-     {name:'Appointment Management System',description:'General purpose admin dashboard to manage users, appointments and more.',img:'/src/assets/jpeg/appointments.jpg'},
+     {name:'SafePass',description:'Password and Credentials manager',img:'/safepass.jpg'},
+     {name:'Class Attendance Management System',description:'Fullstack web application with IoT and Hardware integration...',img:'/attendance.jpg'},
+     {name:'DevPrompts.ai',description:'Web application that leverages the power of generative Artificial Intelligence to inspire developers to improve their skills.',img:'/devprompts.jpg'},
+     //{name:'Mini Games',description:'Fun Popular Games to pass time with...',img:'/mini.jpg'},
+     {name:'Appointment Management System',description:'General purpose admin dashboard to manage users, appointments and more.',img:'/appointments.jpg'},
    ])
    
  </script>
