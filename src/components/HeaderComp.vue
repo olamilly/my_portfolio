@@ -83,8 +83,9 @@ const hamMenuBtn = ref()
 const smallMenu = ref()
 const headerHamMenuBtn = ref()
 const headerHamMenuCloseBtn = ref()
-function closeDropdown(e){
-  if(e.target != hamMenuBtn.value && e.target !=headerHamMenuBtn.value){
+function closeDropdown(e:Event){
+  const el = e.target as HTMLInputElement
+  if(el != hamMenuBtn.value && el !=headerHamMenuBtn.value){
     if (smallMenu.value.classList.contains('header__sm-menu--active')) {
         smallMenu.value.classList.remove('header__sm-menu--active')
     }
