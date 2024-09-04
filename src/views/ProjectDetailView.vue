@@ -15,7 +15,7 @@
             alt="Project Image"
             class="project-details__showcase-img"
           />
-        </div>_
+        </div>
         <div class="project-details__content-main">
           <h1 class="projects__row-content-title" style="text-align: center; font-size:3rem; font-weight: 700;">{{ thisProject.name }}</h1>
           <div class="project-details__desc">
@@ -112,7 +112,7 @@ let projects = {
     short_description:'General purpose Administrator dashboard for assistants, secretaries and the likes to manage users, appointments',
     main_description:" Built with Laravel on the backend and Vue.js 3 on the frontend, this project serves as a starting point for creating various web applications requiring an admin interface.<br><br>It provides functionalities like:<br><ul><li style='list-style:square'>User authentication (Laravel Fortify) and management(CRUD operation on users stored in a database).</li><li style='list-style:square'>Data filtering, pagination and searching. (Appointments in the base case but it can be altered to manage whatever data)</li><li style='list-style:square'>Toast notifications</li><li style='list-style:square'>Confirmation modals for actions using Sweet Alert</li><li style='list-style:square'>Date and time pickers</li></ul><br>By building this project, I gained valuable experience in building modern fullstack web applications with a clear separation of concerns between the backend and frontend. I also explored integrating third-party libraries and node modules to enhance user experience.",
     img:'/appointments.jpg',
-    tools:['Vue', "Bootstrap", 'Laravel'," MySQL"],
+    tools:['Vue', "Bootstrap", 'Laravel'," MySQL","NPM"],
     live:'',
     source:'https://github.com/olamilly/mylaravue3'
   },
