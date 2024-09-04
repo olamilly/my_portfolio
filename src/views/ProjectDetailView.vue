@@ -3,7 +3,7 @@
       <header class="header">
           <div class="header__content">
               <div class="header__logo-container" >
-              <span class="header__logo-sub"  @click="()=>{$router.push('/#projects')}"><i class='bx bx-left-arrow-alt'></i></span>
+              <span class="header__logo-sub"  @click="goBack()"><i class='bx bx-left-arrow-alt'></i></span>
               </div>
           </div>
       </header>
@@ -69,6 +69,10 @@ import { useRoute, useRouter } from 'vue-router'
 
 const router = useRouter()
 const route = useRoute()
+
+function goBack() {
+  window.history.back()
+}
 
 let projects = {
   'SafePass':{
