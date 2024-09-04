@@ -36,7 +36,7 @@
                 <strong>Resume</strong>.
               </p>
             </div>
-            <a href="https://drive.google.com/file/d/10MM-JyENac8ojgos8id0TW8B8GL2Zqo3/view?usp=sharing" target="_blank" class="btn btn--med btn--theme dynamicBgClr" style="margin-bottom: 2rem"
+            <a href="https://drive.google.com/file/d/1TU8Zic6ZbbcIcldBHE6s09fQz2ZW0AXI/view?usp=sharing" target="_blank" class="btn btn--med btn--theme dynamicBgClr" style="margin-bottom: 2rem"
               >Resume</a
             >
             <p class="about__content-details-para">
