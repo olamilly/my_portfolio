@@ -70,11 +70,18 @@ const errorMessage = ref('');
 
 async function contactMe(){
   const box=document.querySelector<HTMLElement>('#alert-box')
+  const container=document.querySelector<HTMLElement>('.contact__form-container')
   
-  if (box!=null){
+  if (box!=null && container!=null){
     box.style.padding='1rem'
     if(box.classList.contains('alert-danger')){
       box.classList.toggle('alert-danger')
+    }
+    if(container.classList.contains('container-danger')){
+      container.classList.toggle('container-danger')
+    }
+    if(container.classList.contains('container-success')){
+      container.classList.toggle('container-success')
     }
     if(box.classList.contains('alert-success')){
       box.classList.toggle('alert-success')
@@ -96,18 +103,21 @@ async function contactMe(){
       form.value.message=''
     }
     errorMessage.value = 'Message sent successfully.';
-    if (box!=null){
+    if (box!=null && container!=null){
       box.classList.toggle('alert-success')
+      container.classList.toggle('container-success')
       setTimeout(()=>{
         box.classList.toggle('alert-success')
+        container.classList.toggle('container-success')
         box.style.padding='0px'
       },2500)
     }
   })
   .catch((error)=>{
     errorMessage.value = 'Network Issues. Check your Internet and try again.';
-    if (box!=null){
+    if (box!=null && container!=null){
       box.classList.toggle('alert-danger')
+      container.classList.toggle('container-danger')
     }
   });
   
@@ -128,5 +138,11 @@ async function contactMe(){
 }
 .alert-success{
   background-color: rgb(77, 215, 2);
+}
+.container-danger{
+  border:5px solid rgb(255, 40, 40);
+}
+.container-success{
+  border: 5px solid rgb(77, 215, 2);
 }
 </style>

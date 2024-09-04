@@ -76,7 +76,7 @@ let projects = {
     short_description:'Password and Credentials manager',
     main_description:"Full stack web application that helps users securely store passwords for different websites.<br>I implemented AES-256 encryption on the backend to securely encrypt all user information stored on the database. This project is a <a style='font-weight: 700;text-decoration: underline;' href='https://codingchallenges.fyi/' target='_blank'>coding challenges</a> solution and the problem brief can be found <a style='font-weight: 700;text-decoration: underline;'  href='https://codingchallenges.substack.com/p/coding-challenge-58-password-manager' target='_blank'>here</a>. Going through the brief will help give you a proper understanding of the problem that the application is trying to solve. <br>Working on this project helped me learn more about Cybersecurity and Encryption as well as hosting web applications on AWS virtual servers.",
     img:'/safepass.jpg',
-    tools:['HTML','CSS','JavaScript','Git','Vue', "Bootstrap",'PHP', 'Laravel'," MySQL", 'AWS EC2'],
+    tools:['HTML','CSS','JavaScript','Git','Vue.js', "Bootstrap",'PHP', 'Laravel'," MySQL", 'AWS EC2'],
     live:'http://ec2-54-242-210-101.compute-1.amazonaws.com/',
     source:'https://github.com/olamilly/safepass'
   },
@@ -94,7 +94,7 @@ let projects = {
     short_description:'Artificial Intelligence platform engineering.',
     main_description:"Lightweight frontend web application that levrages Google's powerful Gemini LLM API. <br>Using information from the user about their tech stack, the application is able to generate project ideas for the user to build.",
     img:'/devprompts.jpg',
-    tools:['Vue', 'AWS S3'," Artificial Intelligence"],
+    tools:['Vue.js', 'AWS S3'," Artificial Intelligence"],
     live:'http://devprompts.ai.s3-website-us-east-1.amazonaws.com/',
     source:''
   },
@@ -109,10 +109,10 @@ let projects = {
   //},
   'Appointment Management System':{
     name:'Appointment Management System',
-    short_description:'General purpose Administrator dashboard for assistants, secretaries and the likes to manage users, appointments',
-    main_description:" Built with Laravel on the backend and Vue.js 3 on the frontend, this project serves as a starting point for creating various web applications requiring an admin interface.<br><br>It provides functionalities like:<br><ul><li style='list-style:square'>User authentication (Laravel Fortify) and management(CRUD operation on users stored in a database).</li><li style='list-style:square'>Data filtering, pagination and searching. (Appointments in the base case but it can be altered to manage whatever data)</li><li style='list-style:square'>Toast notifications</li><li style='list-style:square'>Confirmation modals for actions using Sweet Alert</li><li style='list-style:square'>Date and time pickers</li></ul><br>By building this project, I gained valuable experience in building modern fullstack web applications with a clear separation of concerns between the backend and frontend. I also explored integrating third-party libraries and node modules to enhance user experience.",
+    short_description:'Customizable general purpose Administrator dashboard for assistants, secretaries and the likes to manage users, appointments or any other data',
+    main_description:" Built with Laravel on the backend and Vue.js 3 on the frontend, this project serves as a starting point for creating various web applications requiring an admin interface.<br><br>It provides functionalities like:<br><ul><li style='list-style:square;'>User authentication (Laravel Fortify) and management(CRUD operation on users stored in a database).</li><li style='list-style:square;'>Data filtering, pagination and searching. (Appointments in the base case but it can be altered to manage whatever data).</li><li style='list-style:square;'>Toast notifications.</li><li style='list-style:square'>Confirmation modals for actions using Sweet Alert Package.</li><li style='list-style:square;'>Date and time pickers.</li></ul><br>By building this project, I gained valuable experience in building modern fullstack web applications with a clear separation of concerns between the backend and frontend. I also explored integrating third-party libraries and node modules to enhance user experience.",
     img:'/appointments.jpg',
-    tools:['Vue', "Bootstrap", 'Laravel'," MySQL","NPM"],
+    tools:['Vue.js', "Bootstrap", 'Laravel'," MySQL","NPM"],
     live:'',
     source:'https://github.com/olamilly/mylaravue3'
   },
