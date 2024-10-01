@@ -49,7 +49,7 @@
 						</p>
 					</div>
 					<a
-						href="https://drive.google.com/file/d/1TU8Zic6ZbbcIcldBHE6s09fQz2ZW0AXI/view?usp=sharing"
+						href="https://drive.google.com/file/d/1BAO0-V3jdtUc9F_uUJpIcyDrXijBaCWu/view?usp=sharing"
 						target="_blank"
 						class="btn btn--med btn--theme dynamicBgClr"
 						style="margin-bottom: 2rem"
