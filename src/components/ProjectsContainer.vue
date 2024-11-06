@@ -27,6 +27,7 @@
 					margin-bottom: 0px;
 					font-weight: normal;
 				"
+				data-aos="fade"
 			>
 				More Projects on my
 				<a
@@ -57,10 +58,15 @@
 				"Web application that leverages the power of generative Artificial Intelligence to inspire developers to improve their skills.",
 			img: "/devprompts.jpg",
 		},
+		// {
+		// 	name: "Nexcent",
+		// 	description: "Business landing page.",
+		// 	img: "/nexcent.jpg",
+		// },
 		{
-			name: "Nexcent",
-			description: "Business landing page.",
-			img: "/nexcent.jpg",
+			name: "EduFlex",
+			description: "e-learning platform landing page.",
+			img: "/eduflex.png",
 		},
 		{
 			name: "Class Attendance Management System",

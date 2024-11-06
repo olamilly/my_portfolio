@@ -176,6 +176,17 @@
 			source:
 				"https://github.com/olamilly/IWL-100DaysOfCode/tree/main/react-blog",
 		},
+		EduFlex: {
+			name: "EduFlex",
+			short_description:
+				"Interactive e-learning platform landing page for flexible online education.",
+			main_description:
+				"I designed and developed an this landing with Vue, offering a seamless, responsive user experience for online learners. This SPA includes user-friendly navigation, engaging course materials, and a responsive design for mobile accessibility, providing a high-quality, flexible education solution for students and educators alike.",
+			img: "/eduflex.png",
+			tools: ["Vue 3", "Bootstrap", "AWS S3", "Git", "SEO", "Vercel"],
+			live: "https://eduflex-liard.vercel.app/",
+			source: "https://github.com/olamilly/eduflex",
+		},
 		// 'Appointment Management System':{
 		//   name:'Appointment Management System',
 		//   short_description:'Customizable general purpose Administrator dashboard for assistants, secretaries and the likes to manage users, appointments or any other data',
@@ -198,7 +209,7 @@
 	});
 	onMounted(() => {
 		const projectName = String(route.query.project);
-		if (projectName) {
+		if (projectName && projects[projectName as keyof typeof projects]) {
 			thisProject.value = projects[projectName as keyof typeof projects];
 			window.scrollTo(0, 0);
 		} else {
