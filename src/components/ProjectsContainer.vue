@@ -48,38 +48,42 @@
 	import { ref } from "vue";
 	const projects = ref([
 		{
-			name: "SafePass",
-			description: "Password and Credentials manager.",
-			img: "/safepass.jpg",
-		},
-		{
 			name: "DevPrompts.ai",
 			description:
 				"Web application that leverages the power of generative Artificial Intelligence to inspire developers to improve their skills.",
-			img: "/devprompts.jpg",
+			img: "/projects/devprompts.png",
+		},
+		{
+			name: "SafePass",
+			description: "Secure password and credentials manager.",
+			img: "/projects/safepass.png",
+		},
+		{
+			name: "Coinpulse",
+			description: "Cryptocurrency tracking application.",
+			img: "/projects/coinpulse.png",
+		},
+		{
+			name: "EduFlex",
+			description: "e-learning platform landing page.",
+			img: "/projects/eduflex.png",
+		},
+		{
+			name: "Class Attendance Management System",
+			description:
+				"Fullstack web application with IoT and Hardware integration...",
+			img: "/projects/attendance.jpg",
+		},
+		{
+			name: "Angle Brackets",
+			description: "A React-powered tech blog",
+			img: "/projects/angle-brackets.png",
 		},
 		// {
 		// 	name: "Nexcent",
 		// 	description: "Business landing page.",
 		// 	img: "/nexcent.jpg",
 		// },
-		{
-			name: "EduFlex",
-			description: "e-learning platform landing page.",
-			img: "/eduflex.png",
-		},
-		{
-			name: "Class Attendance Management System",
-			description:
-				"Fullstack web application with IoT and Hardware integration...",
-			img: "/attendance.jpg",
-		},
-		{
-			name: "Angle Brackets",
-			description: "A React-powered tech blog",
-			img: "/angle-brackets.jpg",
-		},
-
 		//{name:'Mini Games',description:'Fun Popular Games to pass time with...',img:'/mini.jpg'},
 		// {name:'Appointment Management System',description:'General purpose admin dashboard to manage users, appointments and more.',img:'/appointments.jpg'},
 	]);

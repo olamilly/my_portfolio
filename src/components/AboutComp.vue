@@ -22,10 +22,11 @@
 					/>
 				</div>
 				<span class="heading-sec__sub">
-					I'm a passionate Engineer and all round tech enthusiast. I'm
+					I'm a passionate Software Engineer and all round tech enthusiast. I'm
 					especially skilled in fullstack web development, Cloud computing and
-					AI platform development. I build applications and infrastructure that
-					seamlessly integrate AI models to deliver efficient solutions.
+					AI platform development / AI engineering. I build applications and
+					infrastructure that seamlessly integrate AI models to deliver
+					efficient solutions.
 				</span>
 			</h2>
 			<div class="about__content">
@@ -35,21 +36,21 @@
 						<p class="about__content-details-para">
 							My name is
 							<strong>Mustapha Olamide</strong>
-							and I <strong> Love </strong> to code.<br />
+							and I <strong> Love </strong> to build.<br />
 							I have always been fascinated by computers and technology and the
 							fact that I can just click some buttons on my computer and build
 							real solutions to actual real life problems.
 						</p>
 						<p class="about__content-details-para" style="margin-bottom: 1rem">
-							In my short career so far, I've built several web applications
-							leveraging Cloud Computing, IoT, Artificial Intelligence and
-							various other technologies and I'm still always learning and
-							building. Feel free to check out my
+							I have experience building web applications that leverage Cloud
+							Computing, IoT, Artificial Intelligence and various other
+							technologies and I'm still always learning and building. Feel free
+							to check out my
 							<strong>Resume</strong>.
 						</p>
 					</div>
 					<a
-						href="https://drive.google.com/file/d/1Mr8Q9-Vdn-wvbv4IxgpFG21RhlkahQBF/view?usp=sharing"
+						href="https://drive.google.com/file/d/1c0_PYRCqTHTvVRVZzeggkJqLUtFs6lZk/view?usp=sharing"
 						target="_blank"
 						class="btn btn--med btn--theme dynamicBgClr"
 						style="margin-bottom: 2rem"
@@ -76,23 +77,13 @@
 				<div class="about__content-skills" data-aos="fade-up">
 					<h3 class="about__content-title">My Skills</h3>
 					<div class="skills">
-						<div class="skills__skill">HTML</div>
-						<div class="skills__skill">CSS</div>
-						<div class="skills__skill">JavaScript</div>
-						<div class="skills__skill">TypeScript</div>
-						<div class="skills__skill">Vue.js</div>
-						<div class="skills__skill">Bootstrap</div>
-						<div class="skills__skill">React</div>
-						<div class="skills__skill">AWS</div>
-						<div class="skills__skill">Git</div>
-						<div class="skills__skill">Laravel</div>
-						<div class="skills__skill">PHP</div>
-						<div class="skills__skill">C++</div>
-						<div class="skills__skill">Python</div>
-						<div class="skills__skill">C#</div>
-						<div class="skills__skill">ASP .Net Core</div>
-						<div class="skills__skill">MySQL</div>
-						<div class="skills__skill">FireBase</div>
+						<div
+							class="skills__skill"
+							v-for="(skill, index) in skills"
+							:key="index"
+						>
+							{{ skill }}
+						</div>
 						<!-- <div class="skills__skill"></div> -->
 					</div>
 				</div>
@@ -100,3 +91,33 @@
 		</div>
 	</section>
 </template>
+
+<script setup lang="ts">
+	const skills = [
+		"HTML",
+		"CSS",
+		"JavaScript",
+		"TypeScript",
+		"Vue.js",
+		"TailwindCSS",
+		"Bootstrap",
+		"React",
+		"Next.js",
+		"AWS",
+		"Git",
+		"Laravel",
+		"Express",
+		"PHP",
+		"C++",
+		"Python",
+		"C#",
+		"ASP .Net Core",
+		"SQL Server",
+		"MySQL",
+		"FireBase",
+		"Docker",
+		"MongoDB",
+		"Node js",
+		"Oracle Cloud",
+	];
+</script>

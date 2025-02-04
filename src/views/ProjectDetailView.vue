@@ -96,10 +96,10 @@
 	let projects = {
 		SafePass: {
 			name: "SafePass",
-			short_description: "Password and Credentials manager",
+			short_description: "Secure password and credentials manager",
 			main_description:
 				"Full stack web application that helps users securely store passwords for different websites and provides easy access.<br>I implemented AES-256 encryption on the backend to securely encrypt all user information stored on the database. This project is a <a style='font-weight: 700;text-decoration: underline;' href='https://codingchallenges.fyi/' target='_blank'>coding challenges</a> solution and the problem brief can be found <a style='font-weight: 700;text-decoration: underline;'  href='https://codingchallenges.substack.com/p/coding-challenge-58-password-manager' target='_blank'>here</a>. Going through the brief will help give you a proper understanding of the problem that the application is trying to solve. <br>Working on this project helped me learn more about Cybersecurity and Encryption as well as hosting web applications on AWS virtual servers.",
-			img: "/safepass.jpg",
+			img: "/projects/safepass.png",
 			tools: [
 				"HTML",
 				"CSS",
@@ -140,37 +140,28 @@
 			short_description: "Artificial Intelligence platform engineering.",
 			main_description:
 				"Lightweight frontend web application that levrages Google's powerful Gemini LLM API. <br>Using information from the user about their tech stack, the application is able to generate project ideas for the user to build.",
-			img: "/devprompts.jpg",
+			img: "/projects/devprompts.png",
 			tools: ["Vue.js", "AWS S3", " Artificial Intelligence"],
 			live: "http://devprompts.ai.s3-website-us-east-1.amazonaws.com/",
 			source: "",
 		},
-		//'Mini Games':{
-		//  name:'Mini Games',
-		//short_description:'Fun Popular Games to pass time with...',
-		//main_description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias tenetur minus quaerat aliquid, aut provident blanditiis',
-		//img:'/mini.jpg',
-		//tools:['Vue', "Bootstrap", 'Laravel'," MySQL"],
-		//live:'',
-		//source:''
-		//},
-		Nexcent: {
-			name: "Nexcent",
-			short_description: "Business Landing Page",
+		Coinpulse: {
+			name: "Coinpulse",
+			short_description: "Cryptocurrency tracking application.",
 			main_description:
-				"I designed a captivating landing page for Nexcent, a software consulting company. The page is optimized for user experience and conversion, featuring clear call-to-action, engaging visuals and responsive design.",
-			img: "/nexcent.jpg",
+				"Coinpulse is asleek and responsive cryptocurrency tracking platform designed to provide real-time insights into the crypto market. Stay updated with: <ul><li style='list-style:auto; font-weight:700'>Live currency price data</li><li style='list-style:auto; font-weight:700'>Market trends</li><li style='list-style:auto; font-weight:700'>Historical analysis</li><li style='list-style:auto; font-weight:700'>Accurate currency conversion</li></ul>and much more all in one place.<br/> <br/> Powered by the CoinGecko API, Coinpulse is a dynamic single-page application built with Vue.js, Bootstrap and deployed on Vercel.",
+			img: "/projects/coinpulse.png",
 			tools: ["Vue", "Bootstrap", "Vercel", "Git"],
-			live: "https://nexcent-pi-green.vercel.app/",
-			source: "https://github.com/olamilly/nexcent",
+			live: "https://coin-pulse-alpha.vercel.app/",
+			source: "https://github.com/olamilly/CoinPulse",
 		},
 		"Angle Brackets": {
 			name: "Angle Brackets Blog",
 			short_description:
 				"Informative tech blog. Dynamic Single Page Application built with React.",
 			main_description:
-				"I developed a dynamic tech blog using React, providing a platform for sharing insights and knowledge on the latest trends in technology. The blog features a user-friendly interface, customizable themes and SEO optimization.",
-			img: "/angle-brackets.jpg",
+				"I developed a tech blog using React, providing a platform where I can share insights and knowledge on the latest trends in technology. The blog features a user-friendly interface, customizable themes and SEO optimization.",
+			img: "/projects/angle-brackets.png",
 			tools: ["React", "Bootstrap", "AWS S3", "Git", "SEO"],
 			live: "http://angle-brackets-blog.s3-website-us-east-1.amazonaws.com/",
 			source:
@@ -182,7 +173,7 @@
 				"Interactive e-learning platform landing page for flexible online education.",
 			main_description:
 				"I designed and developed an this landing with Vue, offering a seamless, responsive user experience for online learners. This SPA includes user-friendly navigation, engaging course materials, and a responsive design for mobile accessibility, providing a high-quality, flexible education solution for students and educators alike.",
-			img: "/eduflex.png",
+			img: "/projects/eduflex.png",
 			tools: ["Vue 3", "Bootstrap", "AWS S3", "Git", "SEO", "Vercel"],
 			live: "https://eduflex-liard.vercel.app/",
 			source: "https://github.com/olamilly/eduflex",
@@ -196,6 +187,26 @@
 		//   live:'',
 		//   source:'https://github.com/olamilly/mylaravue3'
 		// },
+		// Nexcent: {
+		// 	name: "Nexcent",
+		// 	short_description: "Business Landing Page",
+		// 	main_description:
+		// 		"I designed a captivating landing page for Nexcent, a software consulting company. The page is optimized for user experience and conversion, featuring clear call-to-action, engaging visuals and responsive design.",
+		// 	img: "/nexcent.jpg",
+		// 	tools: ["Vue", "Bootstrap", "Vercel", "Git"],
+		// 	live: "https://nexcent-pi-green.vercel.app/",
+		// 	source: "https://github.com/olamilly/nexcent",
+		// },
+		//'Mini Games':{
+		//  name:'Mini Games',
+		//short_description:'Fun Popular Games to pass time with...',
+		//main_description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias tenetur minus quaerat aliquid, aut provident blanditiis',
+		//img:'/mini.jpg',
+		//tools:['Vue', "Bootstrap", 'Laravel'," MySQL"],
+		//live:'',
+		//source:''
+		//},
+		//
 	};
 
 	const thisProject = ref({
