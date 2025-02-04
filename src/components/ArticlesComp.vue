@@ -34,7 +34,7 @@
 	];
 </script>
 <template>
-	<section id="articles" class="sec-pad blog-posts about" data-aos="fade-up">
+	<section id="articles" class="sec-pad blog-posts" data-aos="fade-up">
 		<div class="main-container">
 			<h2 class="heading heading-sec heading-sec__mb-bg">
 				<span class="heading-sec__main">Articles</span>

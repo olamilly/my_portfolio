@@ -1,5 +1,5 @@
 <template>
-	<section id="certificates" class="sec-pad" data-aos="fade-up">
+	<section id="certificates" class="sec-pad about" data-aos="fade-up">
 		<div class="main-container">
 			<h2 class="heading heading-sec heading-sec__mb-med">
 				<span class="heading-sec__main">Certificates</span>
@@ -17,18 +17,20 @@
 							v-for="(cert, index) in certificates"
 							:key="index"
 						>
-							<img
-								:src="cert.image"
-								:alt="cert.title"
-								class="certificate-image"
-							/>
-							<div class="certificate-info">
-								<h3>{{ cert.title }}</h3>
-								<p style="font-weight: 600">
-									{{ cert.issuer }}
-								</p>
-								<p>{{ cert.date }}</p>
-							</div>
+							<a :href="cert.link" target="_blank">
+								<img
+									:src="cert.image"
+									:alt="cert.title"
+									class="certificate-image"
+								/>
+								<div class="certificate-info">
+									<h3>{{ cert.title }}</h3>
+									<p style="font-weight: 600">
+										{{ cert.issuer }}
+									</p>
+									<p>{{ cert.date }}</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<button
@@ -62,43 +64,51 @@
 			title: "Introduction to Generative AI",
 			issuer: "Google Cloud Skills Boost",
 			date: "2025",
-			image: "/public/certs/Generative_AI_Badge.png",
-			// link:"https://www.cloudskillsboost.google/public_profiles/82b7303c-57da-4e60-be7b-a0595784c098/badges/13777638"
+			image: "/certs/Generative_AI_Badge.png",
+			link: "https://www.cloudskillsboost.google/public_profiles/82b7303c-57da-4e60-be7b-a0595784c098/badges/13777638",
 		},
 		{
 			id: 2,
-			title: "Database Foundations",
-			issuer: "Oracle Academy",
-			date: "2024",
-			image: "/public/certs/db.png",
-		},
-		{
-			id: 3,
 			title: "Application Development Foundations",
 			issuer: "Oracle Academy",
 			date: "2024",
-			image: "/public/certs/apex.png",
+			image: "/certs/apex.png",
+		},
+		{
+			id: 3,
+			title: "Introduction to Large Language Models",
+			issuer: "Google Cloud Skills Boost",
+			date: "2025",
+			image: "/certs/LLM_Badge.png",
+			link: "https://www.cloudskillsboost.google/public_profiles/82b7303c-57da-4e60-be7b-a0595784c098/badges/13777638",
 		},
 		{
 			id: 4,
-			title: "Oracle Cloud Infrastructure Foundations",
+			title: "Database Foundations",
 			issuer: "Oracle Academy",
 			date: "2024",
-			image: "/public/certs/oci.png",
+			image: "/certs/db.png",
 		},
 		{
 			id: 5,
-			title: "InternPulse Finalist",
-			issuer: "InternPulse",
+			title: "Oracle Cloud Infrastructure Foundations",
+			issuer: "Oracle Academy",
 			date: "2024",
-			image: "/public/certs/internpulse.png",
+			image: "/certs/oci.png",
 		},
 		{
 			id: 6,
+			title: "InternPulse Finalist",
+			issuer: "InternPulse",
+			date: "2024",
+			image: "/certs/internpulse.png",
+		},
+		{
+			id: 7,
 			title: "Huawei Data Communication",
 			issuer: "Huawei",
 			date: "2024",
-			image: "/public/certs/huawei.png",
+			image: "/certs/huawei.png",
 		},
 	]);
 

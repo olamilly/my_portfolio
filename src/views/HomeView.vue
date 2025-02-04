@@ -14,8 +14,8 @@
 	<HeroComp />
 	<AboutComp />
 	<ProjectsContainer />
-	<ArticlesComp />
 	<CertificatesComp />
+	<ArticlesComp />
 	<ContactComp />
 	<FooterComp />
 </template>
